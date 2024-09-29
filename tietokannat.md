@@ -6,27 +6,35 @@ select * from goal;
 
 teht 2:
 select name, type from airport where iso_country = "FI";
+![ruudunkaappaus](module3_teht2.png)
 
 teht 3:
 select name from airport where iso_country = "FI" order by name;
+![ruudunkaappaus](module3_teht3.png)
 
 teht 4:
 select name, type from airport where iso_country = "FI" order by type, name;
+![ruudunkaappaus](module3_teht4.png)
 
 teht 5:
 select name from country where name like "F%";
+![ruudunkaappaus](module3_teht5.png)
 
 teht 6:
 select name from country where name like "%F%";
+![ruudunkaappaus](module3_teht6.png)
 
 teht 7:
 select location from game where screen_name = "Vesa";
+![ruudunkaappaus](module3_teht7.png)
 
 teht 8:
 select co2_consumed from game where screen_name = "Ilkka";
+![ruudunkaappaus](module3_teht8.png)
 
 teht 9:
 select distinct co2_budget from game;
+![ruudunkaappaus](module3_teht9.png)
 
 
 
