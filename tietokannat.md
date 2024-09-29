@@ -2,6 +2,7 @@ MODULE 3:
 
 teht 1:
 select * from goal;
+![ruudunkaappaus](module3_teht1.png)
 
 teht 2:
 select name, type from airport where iso_country = "FI";
